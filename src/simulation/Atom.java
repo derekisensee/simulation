@@ -13,6 +13,12 @@ public class Atom {
 		electrons = e;
 	}
 	
+	public int getElectronCoords() {
+		if(electrons <= 2) { //if 1s subshell
+			
+		}
+	}
+	
 	public String getInfo() {
 		return name + "\n----------\nProtons: " + protons + "\nNeutrons: " + neutrons + "\nElectrons: " + electrons;
 	}
