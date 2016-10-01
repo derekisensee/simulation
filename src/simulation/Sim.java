@@ -1,7 +1,10 @@
 package simulation;
 
 public class Sim {
+	
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		Atom a = new Atom("Poop");
+		
+		System.out.println(a.getT());
 	}
 }
