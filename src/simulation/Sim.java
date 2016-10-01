@@ -3,8 +3,8 @@ package simulation;
 public class Sim {
 	
 	public static void main(String[] args) {
-		Atom a = new Atom("Poop");
+		Atom hydrogen = new Atom("Hydrogen", 1, 0, 1);
 		
-		System.out.println(a.getT());
+		System.out.println(hydrogen.getInfo());
 	}
 }
