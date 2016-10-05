@@ -15,8 +15,9 @@ public class Atom {
 	
 	public int getElectronCoords() {
 		if(electrons <= 2) { //if 1s subshell
-			
+			return 30;
 		}
+		return 2; //placeholder values to appease eclipse
 	}
 	
 	public String getInfo() {
